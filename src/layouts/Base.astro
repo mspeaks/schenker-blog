@@ -1,0 +1,75 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = "Mark Schenker's blog — thoughts on teaching, tech, and life in Singapore." } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <title>{title}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --text: #1a1a1a;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --bg: #ffffff;
+      --border: #e5e7eb;
+      --max: 680px;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 0 1.25rem;
+    }
+    header {
+      max-width: var(--max);
+      margin: 2.5rem auto 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1rem;
+    }
+    header a { text-decoration: none; color: inherit; }
+    .site-name { font-weight: 600; font-size: 1.1rem; letter-spacing: -0.01em; }
+    nav { display: flex; gap: 1.5rem; }
+    nav a { color: var(--muted); font-size: 0.9rem; text-decoration: none; }
+    nav a:hover { color: var(--text); }
+    main { max-width: var(--max); margin: 0 auto 4rem; }
+    footer {
+      max-width: var(--max);
+      margin: 0 auto 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="/"><span class="site-name">Mark Schenker</span></a>
+    <nav>
+      <a href="/">Writing</a>
+      <a href="/about">About</a>
+    </nav>
+  </header>
+  <main>
+    <slot />
+  </main>
+  <footer>
+    <p>© {new Date().getFullYear()} Mark Schenker · Singapore</p>
+  </footer>
+</body>
+</html>

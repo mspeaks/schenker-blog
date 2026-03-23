@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+<Base title="Mark Schenker">
+  <div style="margin-bottom:2.5rem;">
+    <h1 style="font-family:'Lora',serif;font-size:2rem;font-weight:600;letter-spacing:-0.02em;margin-bottom:0.5rem;">Writing</h1>
+    <p style="color:#6b7280;">Thoughts on teaching, technology, and life in Singapore.</p>
+  </div>
+  {posts.length === 0 && <p style="color:#6b7280;">No posts yet — check back soon.</p>}
+  <ul style="list-style:none;">
+    {posts.map(post => (
+      <li style="margin-bottom:2rem;padding-bottom:2rem;border-bottom:1px solid #e5e7eb;">
+        <a href={`/blog/${post.slug}`} style="text-decoration:none;color:inherit;">
+          <h2 style="font-family:'Lora',serif;font-size:1.35rem;font-weight:600;margin-bottom:0.4rem;line-height:1.3;">{post.data.title}</h2>
+          <p style="color:#6b7280;font-size:0.95rem;margin-bottom:0.5rem;">{post.data.description}</p>
+          <time style="color:#9ca3af;font-size:0.85rem;">{post.data.pubDate.toLocaleDateString('en-SG', { year:'numeric', month:'long', day:'numeric' })}</time>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Base>
