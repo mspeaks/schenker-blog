@@ -3,6 +3,7 @@ title: "Eight Years at ULC"
 description: "A reflection on eight years teaching adults at United Language Center Singapore — the craft, the community, and what I carry with me."
 pubDate: "2026-03-24"
 tags: ["teaching", "ulc", "singapore", "reflection"]
+draft: true
 ---
 
 In February 2018, I walked into a small room on the ninth floor of a building in City Hall, Singapore, and taught my first ever solo adult English class.
