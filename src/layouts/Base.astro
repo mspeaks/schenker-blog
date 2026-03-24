@@ -30,8 +30,9 @@ const { title, description = "Mark Schenker's blog — thoughts on teaching, tec
       background: var(--bg);
       color: var(--text);
       line-height: 1.7;
-      padding: 0 1.25rem;
+      padding: 0 1.5rem;
       overflow-x: hidden;
+      box-sizing: border-box;
     }
     header {
       max-width: var(--max);
@@ -57,7 +58,7 @@ const { title, description = "Mark Schenker's blog — thoughts on teaching, tec
       font-size: 0.85rem;
     }
     @media (max-width: 600px) {
-      body { padding: 0 1rem; }
+      body { padding: 0 1.25rem; }
       header { margin: 1rem auto 1.5rem; }
       .site-name { font-size: 1rem; }
       nav { gap: 1rem; }
