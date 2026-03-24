@@ -34,10 +34,10 @@ const { title, description = "Mark Schenker's blog — thoughts on teaching, tec
     }
     header {
       max-width: var(--max);
-      margin: 2.5rem auto 3rem;
+      margin: 1.5rem auto 2rem;
       display: flex;
       justify-content: space-between;
-      align-items: baseline;
+      align-items: center;
       border-bottom: 1px solid var(--border);
       padding-bottom: 1rem;
     }
@@ -46,7 +46,7 @@ const { title, description = "Mark Schenker's blog — thoughts on teaching, tec
     nav { display: flex; gap: 1.5rem; }
     nav a { color: var(--muted); font-size: 0.9rem; text-decoration: none; }
     nav a:hover { color: var(--text); }
-    main { max-width: var(--max); margin: 0 auto 4rem; }
+    main { max-width: var(--max); margin: 0 auto 3rem; }
     footer {
       max-width: var(--max);
       margin: 0 auto 2rem;
@@ -54,6 +54,12 @@ const { title, description = "Mark Schenker's blog — thoughts on teaching, tec
       border-top: 1px solid var(--border);
       color: var(--muted);
       font-size: 0.85rem;
+    }
+    @media (max-width: 600px) {
+      body { padding: 0 1rem; }
+      header { margin: 1rem auto 1.5rem; }
+      .site-name { font-size: 1rem; }
+      nav { gap: 1rem; }
     }
   </style>
 </head>
