@@ -15,6 +15,8 @@ I remember obsessing over every lesson plan. The progression of activities. The 
 
 What I didn't expect was how much the school itself would show up for me.
 
+![A ULC classroom lesson, January 2020](/images/ulc-classroom-2020.jpg)
+
 ---
 
 Matt, the founder of ULC, did something I've never forgotten. Before I was even officially hired, he paid me in cash to cover lessons. That's how much he believed in building something real. He wasn't just filling slots on a schedule — he was investing in people. He took me under his wing in a way that went well beyond job training. He made me feel, from day one, like I was already part of something.
