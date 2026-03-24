@@ -9,8 +9,8 @@ const formattedDate = pubDate.toLocaleDateString('en-SG', { year: 'numeric', mon
 <Base title={`${title} — Mark Schenker`} description={description}>
   <article>
     <header style="margin-bottom:2rem;">
-      <h1 style="font-family:'Lora',serif;font-size:2rem;font-weight:600;line-height:1.25;letter-spacing:-0.02em;margin-bottom:0.75rem;">{title}</h1>
-      <div style="color:#6b7280;font-size:0.9rem;display:flex;gap:1rem;align-items:center;flex-wrap:wrap;">
+      <h1 style="font-family:'Lora',serif;font-size:clamp(1.5rem,5vw,2rem);font-weight:600;line-height:1.25;letter-spacing:-0.02em;margin-bottom:0.75rem;overflow-wrap:break-word;">{title}</h1>
+      <div style="color:#6b7280;font-size:0.9rem;display:flex;gap:0.5rem;align-items:center;flex-wrap:wrap;">
         <time>{formattedDate}</time>
         {tags && tags.map(tag => <span style="background:#f3f4f6;padding:0.2rem 0.6rem;border-radius:999px;font-size:0.8rem;">#{tag}</span>)}
       </div>
@@ -21,7 +21,7 @@ const formattedDate = pubDate.toLocaleDateString('en-SG', { year: 'numeric', mon
   </article>
 </Base>
 <style>
-  .prose { font-family: 'Lora', serif; font-size: 1.05rem; line-height: 1.8; }
+  .prose { font-family: 'Lora', serif; font-size: 1.05rem; line-height: 1.8; overflow-wrap: break-word; word-break: break-word; }
   .prose h2 { font-family: 'Inter', sans-serif; font-size: 1.25rem; font-weight: 600; margin: 2rem 0 0.75rem; }
   .prose h3 { font-family: 'Inter', sans-serif; font-size: 1.05rem; font-weight: 600; margin: 1.5rem 0 0.5rem; }
   .prose p { margin-bottom: 1.25rem; }
