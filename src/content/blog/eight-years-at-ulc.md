@@ -19,9 +19,9 @@ What I didn't expect was how much the school itself would show up for me.
 
 Matt, the founder of ULC, did something I've never forgotten. Before I was even officially hired, he paid me in cash to cover lessons. That's how much he believed in building something real. He wasn't just filling slots on a schedule — he was investing in people. He took me under his wing in a way that went well beyond job training. He made me feel, from day one, like I was already part of something.
 
-The early team felt the same way. Marialena. Norah. Teachers who were already exceptional at what they did and generous enough to share it. I was inspired watching them work. I wanted to be as good as they were. That competitive admiration — the healthy kind — pushed me to put in the hours.
+The early team felt the same way. Marialena. Norah. Nat. Teachers who were already exceptional at what they did and generous enough to share it. I was inspired watching them work. I wanted to be as good as they were. That competitive admiration — the healthy kind — pushed me to put in the hours.
 
-And the hours were real. In those early years, 120 teaching hours a month wasn't unusual. It was the culture. And honestly? I was grateful for it. There's no substitute for repetition when you're learning a craft. You teach the same grammar structure twelve different ways until you find the one that makes a student's eyes light up. You figure out which activities fall flat and which ones have a room buzzing. You build a sixth sense for when a lesson is working and when it's quietly dying.
+And the hours were real. In those early years, over 120 teaching hours a month wasn't unusual. It was the culture. And honestly? I was grateful for it. There's no substitute for repetition when you're learning a craft. You teach the same grammar structure twelve different ways until you find the one that makes a student's eyes light up. You figure out which activities fall flat and which ones have a room buzzing. You build a sixth sense for when a lesson is working and when it's quietly dying.
 
 By the end of my first year, I had found my footing. By the end of my second, I had found my voice.
 
@@ -29,7 +29,7 @@ By the end of my first year, I had found my footing. By the end of my second, I 
 
 Growth at ULC was steady and real. We expanded from that ninth-floor room to the tenth. We built programs, curriculum, a culture.
 
-2021 was a year I'll remember for a long time. Despite everything the world threw at everyone, ULC thrived. I received a two-month bonus — the first and most meaningful financial recognition of my career there. It felt like proof that the work mattered.
+2021 was a year I'll remember for a long time. Despite everything the world threw at everyone, ULC thrived. I received a two-month bonus — a sure windfall compared to anything I had experienced in my previous jobs. It felt like proof that the work mattered an my career was moving in the right direction.
 
 And then COVID hit properly, and we adapted.
 
