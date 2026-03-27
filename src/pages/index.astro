@@ -1,8 +1,13 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
+const now = new Date();
 const posts = (await getCollection('blog'))
-  .filter(p => !p.data.draft)
+  .filter(p => {
+    if (p.data.draft) return false;
+    if (p.data.scheduledDate && p.data.scheduledDate > now) return false;
+    return true;
+  })
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 <Base title="Mark Schenker">
