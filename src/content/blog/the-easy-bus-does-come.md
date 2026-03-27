@@ -3,12 +3,11 @@ title: "The Easy Bus Does Come"
 description: "A response to the 'easy bus never comes' philosophy — and a warning about what happens when it finally arrives."
 pubDate: "2026-03-27"
 tags: ["career", "growth", "reflection"]
-draft: false
+draft: true
+scheduledDate: "2026-03-28"
 ---
 
-Aki Taha writes a newsletter I've followed for years. Smart, thoughtful, the kind of writing that makes you pace around the room. A while back he published a piece called *The Easy Bus Never Comes Around* — a meditation on the value of hard work, hard things, and the kind of deliberate suffering that Jensen Huang and Kara Lawson champion. Handle hard better. Embrace the grind. The easy bus never comes, so stop waiting for it.
-
-I believe in all of it. I've lived enough of it to know it's true.
+Aki Taha writes a newsletter I've followed for years. A while back he published a piece called *The Easy Bus Never Comes Around* — a meditation on the value of hard work, hard things, and not ever expecting “easy” to come around.
 
 But I want to offer a complication. Because I've also lived the other side of it — and I think it's a trap worth naming.
 
